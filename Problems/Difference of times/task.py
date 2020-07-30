@@ -1,0 +1,10 @@
+# put your python code here
+hours = int(input())
+minutes = int(input())
+seconds = int(input())
+hours1 = int(input())
+minutes1 = int(input())
+seconds1 = int(input())
+tym = ((hours * 3600) + (minutes * 60) + seconds)
+tym1 = ((hours1 * 3600) + (minutes1 * 60) + seconds1)
+print(abs(tym - tym1))
